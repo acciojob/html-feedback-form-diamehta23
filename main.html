@@ -3,12 +3,25 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+	
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+	<form method="post">
+		<label for="name">
+		Name : <input type="text" minlength="3" maxlength="50" id="name" required></label>
+		<br>
+	<label for="portfolio">
+		Portfolio : <input type="url" id="portfolio" required></label>
+		<br>
+	<label for="favColor">
+		Favourite Color : <input type="color" id="favColor"></label>
+		<br>
+		<label for="likeness">
+		Likeness : <input type="range" min="1" max="100"id="likeness"></label>
+		<br>
+	<input type="submit" value ="Submit">
+	</form>
 </script>
 
 </body>
